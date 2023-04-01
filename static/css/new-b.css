@@ -1,0 +1,14 @@
+.copyright {
+    color: var(--foreground-secondary);
+    font-size: var(--fs-4);
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid var(--action-primary);
+  }
+  
+  .copyright a {
+    color: var(--accent);
+    font-weight: 500;
+  }
+  
+  .copyright a:hover { text-decoration: underline; }

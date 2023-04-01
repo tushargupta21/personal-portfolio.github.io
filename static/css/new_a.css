@@ -1,0 +1,33 @@
+.fa-facebook{
+    color: blue;
+   }
+  .fa-instagram{
+    color: red;
+  }
+  .fa-twitter{
+    color: blue;
+  }
+  .fa-youtube{
+    color: red;
+  }
+  .fakeimg {
+    
+    background-color: #6001f8;
+    width: 50%;
+    height:50%;
+    padding: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .card {
+     background-color: var(--background-secondary); 
+     
+     padding: 20px;
+     margin-top: 20px;
+     margin-left:10px;
+     margin-right:10px;
+     width: auto;
+  }
