@@ -8,7 +8,7 @@
   <title>Tushar Gupta's Personal Blog Website</title>
 
 
-  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
 
   <!--
     - font links of google
@@ -43,21 +43,49 @@
               <ul class="desktop-nav">
     
                 <li>
-                  <a href="/index.html" class="nav-link">Home</a>
+                  <a href="../../index.html" class="nav-link">Home</a>
                 </li>
     
                 <li>
-                  <a href="/static/pages/myself.html" class="nav-link">About Me</a>
+                  <a href="./myself.html" class="nav-link">About Me</a>
                 </li>
     
                 <li>
-                  <a href="#copyright" class="nav-link">Contact</a>
+                  <a href="./blogpage.html" class="nav-link">Blog Post</a>
                 </li>
     
               </ul>
     
             </div>
+            <div class="mobile-nav">
+
+              <button class="nav-close-btn">
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
     
+              <div class="wrapper" >
+    
+                <p class="h3 nav-title">Main Menu</p>
+    
+                <ul >
+                  <li class="nav-item">
+                    <a href="../../index.html" class="nav-link">Home</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a href="./myself.html" class="nav-link">About Me</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a href="./blogpage.html" class="nav-link">Blog Post</a>
+                  </li>
+                </ul>
+    
+              </div>
+    
+    
+    
+            </div>
     
           </nav>
     
@@ -74,7 +102,7 @@
                   <h2 class="h2">INFORMATION ABOUT MYSELF</h2>
                 
                   <br>
-                  <img class="fakeimg" src="/static/images/abcd1.jpg"></img>
+                  <img class="fakeimg" src="../images/abcd1.jpg"></img>
                   <br>
                   <table class="table">
 
@@ -118,5 +146,9 @@
         </p>
     
       </footer>
+      <script src="../js/script.js"></script>
+
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>

@@ -8,7 +8,7 @@
   <title>Tushar Gupta's Personal Blog Website</title>
 
 
-  <link rel="stylesheet" href="./static/css/style.css">
+  <link rel="stylesheet" href="static/css/style.css">
 
   <!--
     - font links of google
@@ -45,21 +45,58 @@
           <ul class="desktop-nav">
 
             <li>
-              <a href="/index.html" class="nav-link">Home</a>
+              <a href="index.html" class="nav-link">Home</a>
             </li>
 
             <li>
-              <a href="/static/pages/myself.html" class="nav-link">About Me</a>
+              <a href="static/pages/myself.html" class="nav-link">About Me</a>
             </li>
 
             <li>
-              <a href="#copyright" class="nav-link">Contact</a>
+              <a href="static/pages/blogpage.html" class="nav-link">Blog Post</a>
             </li>
 
           </ul>
 
         </div>
+        <!-- <div class="btn-group">
 
+        
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button> -->
+
+        <!-- </div> -->
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper" >
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul >
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="static/pages/myself.html" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="/static/pages/blogpage.html" class="nav-link">Blog Post</a>
+              </li>
+            </ul>
+
+          </div>
+
+
+
+        </div>
         
 
       </nav>
@@ -90,7 +127,7 @@
 
           <div class="pattern-bg"></div>
           <div class="img-box">
-            <img src="./static/images/model.png" alt="Tushar Gupta" class="model-img">
+            <img src="static/images/model.png" alt="Tushar Gupta" class="model-img">
             <div class="shape shape-1"></div>
             <div class="shape shape-2"></div>
           </div>
@@ -120,7 +157,7 @@
 
               <div class="blog-card-banner">
                 <figure>
-                <img src="./static/images/mernlogo.jpg" 
+                <img src="static/images/mernlogo.jpg" 
                   width="250" class="blog-banner-img">
                   <figcaption class="t9">MongoDB, Express, ReactJS, NodeJS</figcaption>
                 </figure>
@@ -132,7 +169,7 @@
                 <button class="blog-topic text-tiny">Technology Page</button>
 
                 <h3>
-                  <a href="/static/pages/blogpage.html" class="h3">
+                  <a href="static/pages/blogpage.html" class="h3">
                     Information about various technologies I know.
                   </a>
                 </h3>
@@ -151,7 +188,7 @@
 
               <div class="blog-card-banner">
                 <figure>
-                <img src="./static/images/school.jpg" width="250"
+                <img src="static/images/school.jpg" width="250"
                   class="blog-banner-img">
                   <figcaption class="t9">SPPU UNIVERSITY, PUNE</figcaption>
                 </figure>
@@ -175,7 +212,7 @@
 
               <div class="blog-card-banner">
                 <figure>
-                <img src="./static/images/childhood.jpg" 
+                <img src="static/images/childhood.jpg" 
                   width="250" class="blog-banner-img">
                 <figcaption class="t9">CHILDHOOD IMAGES</figcaption>
                 </figure>
@@ -215,8 +252,10 @@
     </p>
 
   </footer>
+  <script src="static/js/script.js"></script>
 
-
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 

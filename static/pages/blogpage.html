@@ -8,7 +8,7 @@
   <title>Tushar Gupta's Personal Blog Website</title>
 
 
-  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
 
   <!--
     - font links of google
@@ -51,22 +51,50 @@
           <ul class="desktop-nav">
 
             <li>
-              <a href="/index.html" class="nav-link">Home</a>
+              <a href="../../index.html" class="nav-link">Home</a>
             </li>
 
             <li>
-              <a href="/static/pages/myself.html" class="nav-link">About Me</a>
+              <a href="./myself.html" class="nav-link">About Me</a>
             </li>
 
             <li>
-              <a href="#copyright" class="nav-link">Contact</a>
+              <a href="./blogpage.html" class="nav-link">Blog Post</a>
             </li>
 
           </ul>
 
         </div>
+               <!--  -->
+               <div class="mobile-nav">
 
-
+                <button class="nav-close-btn">
+                  <ion-icon name="close-outline"></ion-icon>
+                </button>
+      
+                <div class="wrapper" >
+      
+                  <p class="h3 nav-title">Main Menu</p>
+      
+                  <ul >
+                    <li class="nav-item">
+                      <a href="../../index.html" class="nav-link">Home</a>
+                    </li>
+      
+                    <li class="nav-item">
+                      <a href="./myself.html" class="nav-link">About Me</a>
+                    </li>
+      
+                    <li class="nav-item">
+                      <a href="./blogpage.html" class="nav-link">Blog Post</a>
+                    </li>
+                  </ul>
+      
+                </div>
+      
+      
+      
+              </div>
       </nav>
 
     </div>
@@ -87,32 +115,32 @@
             <div class="card">
               <h2 class="h2">MERN STACK DEVELOPMENT</h2>
               <br>
-              <img class="fakeimg" src="/static/images/mern.jpg"></img>
+              <img class="fakeimg" src="../images/mern.jpg"></img>
               <br>
-              <p>&emsp;&emsp;MERN stack is a software stack that includes four open-source technologies: (MongoDB, Express.js, React, and Node.js). These components provide an end-to-end framework for building dynamic web sites and web applications.
+              <blockquote> MERN stack is a software stack that includes four open-source technologies: (MongoDB, Express.js, React, and Node.js). These components provide an end-to-end framework for building dynamic web sites and web applications.
 
                 Among these technologies MongoDB is a database system, Node.js is a server-side runtime environment, Express.js is a web framework for Node.js and React is a client-side JavaScript library used for building user interfaces.
                 
                 Because all components of the MERN stack support programs that are written in JavaScript, MERN applications can be written in one programming language for both server-side and client-side execution environments.
-              </p>
+              </blockquote>
               <p>
                 <br>
                 <b>Software components</b><br>
               <b><u>MongoDB</u></b><br>
-              <i>&emsp;&emsp;&emsp;MongoDB is a NoSQL database program that uses JSON-like BSON (binary JSON) documents with schema.
+              <i>&emsp;&emsp;&emsp;<u>MongoDB is a NoSQL database program that uses JSON-like BSON (binary JSON) documents with schema.
                 
                 The role of the database in the MERN stack is very commonly filled by MongoDB because its use of JSON-like documents for interacting with data as opposed to the row/column model allows it to integrate well with the other (JavaScript-based) components of the stack. <br>
-              </i><br>
+              </i></u><br>
               <b><u>Express.js</u></b><br>
-            <i>&emsp;&emsp;&emsp;Express.js (also referred to as Express) is a modular web application framework for Node.js.
+            <i>&emsp;&emsp;&emsp;<u>Express.js (also referred to as Express) is a modular web application framework for Node.js.
                 
                 Whilst Express is capable of acting as an internet-facing web server, even supporting SSL/TLS out of the box, it is often used in conjunction with a reverse proxy such as NGINX or Apache for performance reasons. <br>
-              </i><br>
+              </i></u><br>
               <b><u>React</u></b><br>
-            <i>&emsp;&emsp;&emsp;React (also known as React.js or ReactJS) is a JavaScript library[3] for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.
+            <i>&emsp;&emsp;&emsp;<u>React (also known as React.js or ReactJS) is a JavaScript library[3] for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.
                 
                 React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with rendering data to the DOM, and so creating React applications usually requires the use of additional libraries for state management and routing.Redux[4] and React Router[5] are respective examples of such libraries.
-              </i></p>
+              </i></u></p>
             </div>
 
       </div>
@@ -129,5 +157,9 @@
     </p>
 
   </footer>
+  <script src="../js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
